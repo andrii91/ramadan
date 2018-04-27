@@ -401,10 +401,18 @@
 
   <div class="modal" id="reg">
     <h3>Make order</h3>
-    <form action="#" method="post">
-      <input type="text" name="" placeholder="Name" required>
-      <input type="tel" name="" placeholder="Number" required>
+    <form action="https://app.getresponse.com/add_subscriber.html" accept-charset="utf-8" method="post">
+      <input type="text" name="name" placeholder="Name" required>
+      <input type="tel" name="custom_cell_phone" placeholder="Number" required>
       <input type="email" name="email" placeholder="E-mail" required>
+      <!-- Токен списка -->
+      <!-- Получить API ID на: https://app.getresponse.com/campaign_list.html -->
+      <input type="hidden" name="campaign_token" value="6pykc" />
+      <!-- Страница благодарности (по желанию) -->
+      <input type="hidden" name="thankyou_url" value="https://andrii91.github.io/ramadan/dist/success.html"/>
+      <!-- Forward form data to your page (optional) -->
+      <input type="hidden" name="forward_data" value="" />
+      <!-- Кнопка подписаться -->
       <button type="submit" class="submit">Send</button>
     </form>
   </div>

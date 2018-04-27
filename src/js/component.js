@@ -262,5 +262,7 @@ $(document).ready(function () {
   $('.mob-btn').click(function(){
     $('.menu').slideToggle(200);
   })
+  
+  
 
 });
