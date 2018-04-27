@@ -150,4 +150,16 @@
   .modal {
     padding: 20px;
   }
+  .success h1 {
+    text-shadow: 0 3px 30px rgba(20,62,112,.19);
+    color: #fff;
+    font-family: "Proxima Nova";
+    font-size: 68px;
+    font-weight: 700;
+    line-height: 1;
+}
+  .order-btn.transparent {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
 }
