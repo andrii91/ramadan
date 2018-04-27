@@ -1,0 +1,61 @@
+@import '../../mq';
+
+@media #{$tabletPortrait} {
+  //    @import '../mobile';
+  main,
+  section,
+  footer,
+  header {
+    overflow: hidden;
+  }
+  br {
+    display: none;
+  }
+  .menu li a {
+    display: inline-block;
+    color: #313131;
+    font-family: "Proxima Nova";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+    padding: 10px 15px;
+    transition: .2s;
+    border-radius: 100px;
+  }
+  .navbar {
+    left: 0;
+  }
+  .ramadan {
+    img {
+      width: 100%;
+    }
+  }
+  .concept {
+    padding-top: 190px;
+  }
+  .programs-list:before {
+    display: none;
+  }
+  .programs-list li.title {
+    margin: 0 auto;
+  }
+  .programs-list li {
+    margin: 30px 0;
+  }
+  .interactive {
+    padding-top: 530px;
+    padding-bottom: 312px
+  }
+  .advertising {
+    padding-top: 175px;
+  }
+  .advertising-carousel.owl-carousel .owl-item {
+    padding: 10px;
+  }
+  .advertising-carousel.owl-carousel .owl-item p {
+    opacity: 1;
+  }
+  .people-carousel {
+    padding: 0 40px;
+  }
+}

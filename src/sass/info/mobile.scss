@@ -1,0 +1,153 @@
+& {
+  main,
+  section,
+  footer,
+  header {
+    overflow: hidden;
+  }
+
+  .mob-btn {
+    display: block;
+  }
+  #navbar {
+    padding: 10px 0;
+    position: fixed;
+    background: url(../images/bg1.png) no-repeat center top;
+    background-size: cover;
+  }
+  .menu {
+    display: none;
+    li {
+      display: block;
+      margin: 0 0 20px;
+      a {
+        display: block;
+      }
+    }
+  }
+  .navbar {
+    left: 0;
+  }
+  .head {
+    padding-top: 90px;
+    h1 {
+      font-size: 24px;
+      line-height: 1.2;
+    }
+  }
+  img {
+    max-width: 100%;
+  }
+  .ramadan {
+    img {
+      margin-bottom: 20px;
+    }
+  }
+  .concept {
+    padding-top: 90px;
+  }
+  .concept-top p {
+    font-size: 15px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+  .order-btn {
+    padding: 25px 12px;
+  }
+  h2 {
+    font-size: 26px;
+  }
+  .programs-list li.title {
+    font-size: 18px;
+    min-height: 56px;
+    margin-bottom: 10px;
+  }
+  .programs-list:before {
+    display: none;
+  }
+  .programs-list li.item {
+    float: none !important;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .interactive {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+  .interactive-box a {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .maxw20 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .advertising {
+    padding-top: 90px;
+  }
+  .advertising-carousel {
+    padding: 0 20px;
+  }
+  .advertising-carousel.owl-carousel .owl-item.center img {
+    max-height: 324px;
+    height: inherit;
+  }
+  .advertising-carousel.owl-carousel .owl-item p {
+    opacity: 1;
+  }
+  .advertising-carousel.owl-carousel .owl-item {
+    padding: 0;
+  }
+  .advertising-carousel.owl-carousel .owl-item img {
+    height: inherit;
+  }
+  .advertising-info {
+    margin-top: 47px;
+    color: #313131;
+    font-family: "Proxima Nova";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 47px;
+  }
+  .advertising-item p {
+    margin-bottom: 30px;
+  }
+  .people-carousel {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .people {
+    padding-top: 0;
+  }
+  .footer {
+    padding-top: 130px;
+  }
+  .countdownHolder > span {
+    margin-right: 15px;
+  }
+  .position {
+    width: 23px;
+    height: 50px;
+    margin-right: 5px;
+  }
+  .digit {
+    font-size: 18px;
+    line-height: 56px;
+
+  }
+  .footer-menu {
+    display: none;
+  }
+  br {
+    display: none;
+  }
+  .programs-list li:after, .programs-list li:before {
+    display: none;
+  }
+  .modal {
+    padding: 20px;
+  }
+}

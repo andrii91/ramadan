@@ -1,0 +1,49 @@
+@import '../../mq';
+
+@media #{$tabletLandscape} {
+  @import '../desktop';
+  .programs-list:before {
+    display: block;
+  }
+  .programs-list li.title {
+    margin-top: 0;
+  }
+  .programs-list li.title {
+    margin: 0 auto 50px;
+  }
+  .programs-list li {
+    margin: 0;
+  }
+  .advertising-carousel.owl-carousel .owl-item {
+    padding: 37px;
+  }
+  .advertising-carousel.owl-carousel .owl-item p {
+    opacity: 0;
+  }
+  .programs-list li:after {
+    right: -79%;
+  }
+  .programs-list li:nth-child(odd):after {
+    left: -79%;
+  }
+  .advertising {
+    padding-top: 396px;
+  }
+  .advertising-carousel.owl-carousel .owl-item {
+    padding: 37px;
+    padding-top: 46px;
+  }
+  .advertising-carousel {
+    padding: 0 30px;
+    text-align: center;
+    margin-top: 43px;
+    position: relative;
+  }
+  .advertising-carousel.owl-carousel .owl-item.center {
+    width: 520px!important;
+  }
+  .people-item img {
+    width: 195px!important;
+    height: 195px;
+}
+}
