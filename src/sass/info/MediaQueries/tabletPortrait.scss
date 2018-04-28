@@ -62,4 +62,23 @@
     font-size: 130px;
     line-height: 1.2;
 }
+  .mob-btn {
+    display: block;
+  }
+  #navbar {
+    padding: 10px 0;
+    position: fixed;
+    background: url(../images/bg1.png) no-repeat center top;
+    background-size: cover;
+  }
+  .menu {
+    display: none;
+    li {
+      display: block;
+      margin: 0 0 20px;
+      a {
+        display: block;
+      }
+    }
+  }
 }

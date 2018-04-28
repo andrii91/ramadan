@@ -150,8 +150,8 @@ $(document).ready(function () {
     target: '#navbar',
     offset: 200
   });
-  var currentItem = $("#navbar li.active > a").attr('href').substring(1);
-  $('.navbar li[data-target="' + currentItem + '"]').addClass('active');
+//  var currentItem = $("#navbar li.active > a").attr('href').substring(1);
+//  $('.navbar li[data-target="' + currentItem + '"]').addClass('active');
 
   $('#navbar').on('activate.bs.scrollspy', function () {
     currentItem = $("#navbar li.active > a").attr('href').substring(1);
@@ -251,13 +251,13 @@ $(document).ready(function () {
     $("#interactive-href").attr('href', $(this).data('href'))
   });
   
-/*  $('.corner-item').click(function(){
+ $('.corner-item').click(function(){
     $('#corner-img_1').attr('src', $(this).data('img_1'));
     $('#corner-img_2').attr('src', $(this).data('img_2'));
-    $('.corner-title').text($(this).data('h2'));
+    $('.corner-title').text($(this).find('p').text());
     $('#info_1').text($(this).data('p_1'));
     $('#info_2').text($(this).data('p_2'));
-  })*/
+  })
 
   $('.mob-btn').click(function(){
     $('.menu').slideToggle(200);

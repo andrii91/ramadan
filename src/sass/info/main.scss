@@ -5,14 +5,14 @@
 }
 
 a:focus,
-a:hover,
+a:hover, 
 input:focus,
 input:hover {
   text-decoration: none;
   color: inherit;
 }
 
-body {
+body { 
   @import 'MediaQueries/main';
   overflow-x: hidden;
 }
@@ -404,7 +404,7 @@ h2 {
     width: 1000px;
     text-align: center;
   }
-  &#corner {
+  &#corner_1 {
     width: 830px;
     text-align: left;
   }
@@ -476,7 +476,11 @@ h2 {
   text-align: center;
 //  padding-bottom: 400px;
   position: relative;
- 
+  .img {
+    img {
+      max-width: 100%;
+    }
+  }
 }
 
 .corner-item {
@@ -740,6 +744,7 @@ h2 {
 
 #corner-img_1 {
   margin-bottom: 24px;
+  width: 100%;
 }
 
 .success {
@@ -772,4 +777,8 @@ h2 {
 .mob-btn {
   display: none;
   float: right;
+}
+
+#corner-img_2 {
+  width:  100%;
 }
