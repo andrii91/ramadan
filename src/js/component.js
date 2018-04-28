@@ -166,6 +166,14 @@ $(document).ready(function () {
       scrollTop: destination
     }, 500);
   });
+  $(".scroll[href='#clients']").click(function (e) {
+    e.preventDefault();
+    var destination = $("#" + $(this).attr('href').substring(1)).offset().top +300;
+    console.log(destination);
+    $("body,html").animate({
+      scrollTop: destination
+    }, 500);
+  });
   $(window).scroll(function () {
     return $('#navbar').toggleClass("fixed", $(window).scrollTop() > 0);
   });
