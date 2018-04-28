@@ -160,7 +160,7 @@ $(document).ready(function () {
   });
   $(".scroll").click(function (e) {
     e.preventDefault();
-    var destination = $("#" + $(this).attr('href').substring(1)).offset().top + 0;
+    var destination = $("#" + $(this).attr('href').substring(1)).offset().top -100;
     console.log(destination);
     $("body,html").animate({
       scrollTop: destination
